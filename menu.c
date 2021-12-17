@@ -28,7 +28,7 @@
 				}switch(pilih1){
 					case 1:
 						{
-						login_user();
+						menu_user();
 						break;	
 						}
 					case 2:
