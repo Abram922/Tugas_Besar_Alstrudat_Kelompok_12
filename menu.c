@@ -6,7 +6,7 @@
 #include "sistem.c"
 
 
-
+//kelompok
 	
 	int menu_utama(){
 				int pilih1;
