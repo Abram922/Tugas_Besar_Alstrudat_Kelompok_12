@@ -70,7 +70,7 @@ int menu_user(){
 		scanf("%d",&scanner3);
 		if(scanner3>3){
 			system("cls");
-            printf("INPUT SALAH, COBA LAGI!!\n");
+            printf("INPUTAN SALAH, COBA LAGI!!\n");
 		}switch(scanner3){
 			case 1:
 				system("cls");

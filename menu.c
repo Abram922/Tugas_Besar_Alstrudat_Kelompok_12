@@ -24,7 +24,7 @@
 		        printf("\n===========================================\n");
 		        if(pilih1>3){
 		     		system("cls");
-		            printf("Pilih Sesuai Daftar Menu !!!");
+		            printf("#Pilih Sesuai Daftar Menu !!!#");
 				}switch(pilih1){
 					case 1:
 						{
