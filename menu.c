@@ -33,8 +33,8 @@
 						}
 					case 2:
 						{
-						login_admin();
 						printf("===================================== Hanya Yang Berkepentingan =====================================");
+						login_admin();
 						break;
 						}
 					case 3:
