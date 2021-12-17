@@ -90,7 +90,7 @@ int menu_user(){
 			case 2:
 				system("cls");
 				printf("Kelola Profile\n");
-				printf("\n===========================");
+				printf("\n~~~~~~~~~~~~~~~~~===========================~~~~~~~~~~~~~~~~");
 				
 				int i, j, found=0;
 			    dataUser s1;
@@ -143,7 +143,7 @@ int menu_user(){
 			
 			            while(fread(&s1,sizeof(dataUser),1,pf1)){
 			                fwrite(&s1,sizeof(dataUser),1,pf);
-			                printf("\n\nData Berhasil Diupdate, Berikut Data Terbaru: ");
+			                printf("\n\n~~~~~~~~~~~~~Data Berhasil Diupdate~~~~~~~~~~~~~`\n, Berikut Data Terbaru: ");
 			                printf("\nNama Lengkap : %s",s1.nama);
 				   			printf("\nNomor Handphone : %s",s1.hp);
 				   			printf("\nEmail : %s",s1.email);
